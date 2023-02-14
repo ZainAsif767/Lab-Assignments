@@ -1,0 +1,8 @@
+{
+    "workbench.preferredDarkColorTheme": "Community Material Theme Darker",
+    "workbench.preferredHighContrastColorTheme": "Default High Contrast",
+    "workbench.editor.decorations.colors": true,
+    "workbench.preferredHighContrastLightColorTheme": "Abyss",
+    "workbench.preferredLightColorTheme": "Default Dark+",
+    "window.autoDetectColorScheme": true
+}
