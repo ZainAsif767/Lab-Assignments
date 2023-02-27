@@ -1,11 +1,7 @@
 # Python program to find if a given string starts
 # with a given character using Lambda
 
-def starts_with(x): return True if x.startswith('S') else False
-
-
-print(starts_with('Syed Zain Asif'))
-def starts_with(x): return True if x.startswith('A') else False
-
-
-print(starts_with('Amir'))
+string = lambda x: True if x.string('S') else False
+print(string('Syed Zain Asif'))
+string = lambda x: True if x.string('B') else False
+print(string('Amir Aijaz'))
