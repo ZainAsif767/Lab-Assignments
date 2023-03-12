@@ -5,10 +5,10 @@
 
 list = ['P', 'A', 'K', 'I', 'S', 'T', 'A', 'N']
 list.reverse()
-print(list)
+print('Reversed list',list)
 list1 = ['P', 'A', 'K', 'I', 'S', 'T', 'A', 'N']
 list1.sort()
-print(list1)
+print('Sorted list',list1)
 list2 = ['P', 'A', 'K', 'I', 'S', 'T', 'A', 'N']
 list2.append('XYZ')
-print(list2)
+print('Appended item',list2)

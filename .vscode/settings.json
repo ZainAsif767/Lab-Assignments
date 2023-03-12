@@ -4,5 +4,6 @@
     "workbench.editor.decorations.colors": true,
     "workbench.preferredHighContrastLightColorTheme": "Abyss",
     "workbench.preferredLightColorTheme": "Default Dark+",
-    "window.autoDetectColorScheme": true
+    "window.autoDetectColorScheme": true,
+    "workbench.colorTheme": "Default Light+"
 }
