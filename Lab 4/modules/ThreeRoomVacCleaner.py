@@ -20,15 +20,16 @@ class ThreeRoomVaccumCleanerEnvironment(Environment):
             if res == 'clean':
                 self.currentRoom.status = 'clean' 
             elif res == 'right':
-                if self.currentRoom.status == 'A':
+                if self.currentRoom == self.r1:
                     self.currentRoom = self.r2
                 else: 
                     self.currentRoom = self.r3
-            else:
-                if self.currentRoom.status == 'B':
-                    self.currentRoom = self.r1
+            elif res == 'left':
+                if self.currentRoom == self.r2:
+                    self.currentRoom = self.r3
                 else:
-                    self.currentRoom = self.r2
+                    self.currentRoom = self.r1
+                    
             self.displayAction() 
             self.step += 1
     def executeAll(self): 
