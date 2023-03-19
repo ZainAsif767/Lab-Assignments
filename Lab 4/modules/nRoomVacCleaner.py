@@ -34,6 +34,15 @@ class nRooomVaccumCleanerEnvironment(Environment):
 
             self.displayAction()
             self.step += 1
+            for i in self.rooms:
+                if i.status == 'clean':
+                    flag = True
+                else:
+                    flag = False
+                    break
+            if flag == True:
+                print("All Rooms are clean,stopping agent")
+                return
 
     def executeAll(self):
         raise NotImplementedError('action must be defined!')
