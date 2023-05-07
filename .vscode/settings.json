@@ -5,7 +5,7 @@
     "workbench.preferredHighContrastLightColorTheme": "Abyss",
     "workbench.preferredLightColorTheme": "Default Dark+",
     "window.autoDetectColorScheme": true,
-    "workbench.colorTheme": "Default Light Modern",
+    "workbench.colorTheme": "Community Material Theme Ocean High Contrast",
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter"
     },
